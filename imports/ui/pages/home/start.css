@@ -1,0 +1,33 @@
+.notice{
+    width: 90%;
+    margin: 5%;
+    background: rgba(205, 219, 224, 0.75);
+    border-radius: 10px;
+}
+.notice:hover {
+    background: rgba(215, 231, 236, 0.75)
+}
+.notice div {
+    margin-left: 20px;
+    padding: 10px;
+}
+.notice-inline {
+    display: inline;
+}
+.h1 {
+    padding: 15px;
+}
+.notice div button {
+    height: 25px;
+    width: 75px;
+    background: #da5858;
+    border-radius: 9px;
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+

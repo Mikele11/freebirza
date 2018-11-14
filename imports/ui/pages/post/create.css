@@ -1,0 +1,69 @@
+.createpost{
+    margin: auto;
+    width: 91%;
+    padding: 10px;
+    margin-top: 10%; 
+    background: rgb(247, 246, 252);
+}
+.createpost div .headerCreatePost{
+    text-align: center;    
+}
+
+.createpost section{
+    display: table;
+    margin: auto;
+    width: 91%;
+    padding: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    max-width: 400px;
+}
+.createpost section div {
+    display: table-row;
+    margin: auto;
+    width: 91%;
+    padding: 10px;
+}
+
+.createpost div textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid #eee;
+    padding: 10px 20px;
+}
+
+.createpost div input {
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 10px 20px;
+}
+
+.createpost div button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+}
+.createpost div button:hover { 
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+.createpost div button:active { 
+    background: linear-gradient(#f59500, #f5ae00) #f59500; 
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+

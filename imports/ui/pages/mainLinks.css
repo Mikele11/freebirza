@@ -1,0 +1,26 @@
+.about h1 {
+    padding: 15px;
+} 
+.about div {
+    padding: 10px;
+}
+
+.about .aboutPunto {
+    display: inline;
+    margin-left: 10px;
+}
+.about h3 {
+    margin-left: 10px;
+}
+.aboutFooter{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
